@@ -7,57 +7,24 @@ Aim: Write a C++ program to print "Hello World" and perform various calculator p
 Software Used: VS Code.
 
 
-Theory:  it is used to define several headers used in the program. - usingnamespace std; : it tells the compiler to use the std namespace. - main() : the execution of the program begins. - int main() : it is the main function where the program execution begins. - cout<<"Hello WOrld" : this line cause the message hello world to be displayed on the screen. -return 0 : it terminates the main function & causes it to return the value 0 to the calling process. - // : this is added before a sentence to make it a comment in the code.
+Theory:  "Hello, World!" introduces a language’s basic syntax, structure, and output functionality. It helps learners understand compilation or interpretation processes without logic complexity.
 
 
-CODE: Hello World
-    
-    #include <iostream>
+Syntax:
 
-    using namespace std;
-
-    int main() 
-
-    {
- 
     cout<<"Hello World";
-    
-    return 0;
-    
-    }
 
 
-CODE: Calculator programs.
+Calculator programs, like addition or subtraction, deepen familiarity with variables, data types, and I/O operations. These small exercises build a foundation for control flow, modular design, and arithmetic processing. They're a bridge to functions, debugging, and building scalable applications—from command-line tools to embedded systems.
+Mastering these basics nurtures precision and logic, crucial in fields like electronics, software engineering, and automation. They prepare learners for structured problem-solving and advanced tasks like sensor data handling or recursive algorithms.
+
+Syntax:
+
+    cout << "Addition: " << a + b;
+    cout << "Subtraction: " << a - b;
+    cout << "Multiplication: " << a * b;
+    cout << "Division: " << a / b;
 
 
-    #include <iostream>
-    using namespace std;
-
-    int main()
-    {
-      float num1, num2;
-      cout << "Enter first number: ";
-      cin >> num1;
-    
-      cout << "Enter second number: ";
-      cin >> num2;
-    
-      cout << "Addition of two numbers: ";
-      int add = num1 + num2;
-      cout << add << endl;
-    
-      cout << "Subtraction of two numbers: ";
-      int sub = num1 - num2;
-      cout << sub << endl;
-    
-      cout << "Multiplication of two numbers: ";
-      int mul = num1 * num2;
-      cout << mul << endl;
-    
-      cout << "Division of two numbers: ";
-      float div = num1 / num2;
-      cout << div << endl;
-    }
-
-Conclusion: This program was very useful for learning the basics of C++ programming.
+Conclusion: "Hello, World!" and calculator programs build core programming skills—from syntax and output to arithmetic operations. These simple constructs lay the groundwork for mastering input, logic, and structure, forming a strong base for more complex coding applications.
 
